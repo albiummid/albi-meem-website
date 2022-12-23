@@ -1,88 +1,102 @@
-body{
-    font-family: 'Philosopher', sans-serif;
-    font-size: 20px;
-}
-.half-width{
-    width: 40%;
-    padding-left: 3%;
-    margin-left: 2%;
-    float: left;
+body {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
 }
 
-h3{
-    font-size: 25px;
+.section__1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.profile1 {
+  width: 800px;
 }
 
-h2{
-    color:lightcoral
-    font-size: 40px;
+.single-bottom > img {
+  width: 800px;
 }
-h1{
-    font-family:'Ubuntu', sans-serif;
-    font-size: 50px;
+
+@media (max-width: 640px) {
+  .profile1 {
+    width: 300px;
+    margin-top: 40px;
+    margin-inline: auto;
+  }
+  .section__1 {
+    flex-direction: column-reverse;
+  }
+  .single-bottom > img {
+    padding-top: 20px;
+    width: 300px;
+  }
 }
-.name-highlight{
-    color: orange;
+
+h3 {
+  font-size: 25px;
 }
-.link-button{
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    border-radius:5px;
-    box-shadow: 5px 2px 30px gray;
-    background-image: linear-gradient(45deg,lightsalmon,orange);
+
+h2 {
+  color: lightcoral;
+  font-size: 40px;
 }
-p{
-font-size: 20px;
-   padding-bottom: 5px;
-   color: gray;
-   text-align: justify;
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
 }
-.half-width img{
-    width: 100%;
+
+.name-highlight {
+  color: orange;
 }
-section{
-height: 500px;
-padding-bottom: 150px;
+.link-button {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 5px 2px 30px gray;
+  background-image: linear-gradient(45deg, lightsalmon, orange);
 }
-.sal{
-    color: salmon;
+p {
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: gray;
+  text-align: justify;
 }
-.single-bottom{
-    width: 40%;
-    padding-bottom: 2%;
+
+.sal {
+  color: salmon;
 }
-.single-bottom img{
-width:40%;
-margin-left: 1200px;
+.single-bottom {
+  padding: 10px;
 }
-#couple-header{
-    text-align: center;
-    color: lightcoral;
+#couple-header {
+  text-align: center;
+  color: lightcoral;
 }
-#box{
-    border-left: 7px solid; 
-    border-image: linear-gradient(180deg,lightsalmon,tomato);
-    border-image-slice: 1;
-    background-color: white;
-    margin-left: 25%;
+/* #box {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+  background-color: white;
+  margin-left: 25%;
+} */
+.shadow {
+  box-shadow: 10px 10px 40px gray;
+  padding: 2% 5%;
+  border-radius: 10px;
 }
-.shadow{
-    box-shadow:10px 10px 40px gray;
-    padding: 2% 5%;
-    border-radius: 10px;
+footer {
+  text-align: center;
 }
-footer{
-    text-align: center;
+#bottom {
+  padding-bottom: 15%;
 }
-#bottom{
-    padding-bottom:15%;
-}
-.ancor-button{
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    border-radius:5px;
-    box-shadow: 5px 2px 30px gray;
-    background-image: linear-gradient(45deg,lightsalmon,salmon);
+
+.ancor-button {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 5px 2px 30px gray;
+  background-image: linear-gradient(45deg, lightsalmon, salmon);
 }
